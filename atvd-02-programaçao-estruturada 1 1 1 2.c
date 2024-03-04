@@ -29,20 +29,13 @@ int main(){
 
 // Questão 3
 int main(){
-    int nome;
-    printf("Insira seu nome");
-    scanf("%d",&nome);
-    printf("Boas-vindas");
+    char nome[20];
+    printf("Insira seu nome: ");
+    scanf("%s", nome);
+    printf("Seja bem-vindo(a) %s\n", nome);
+    return 0;
 }
 
-//aprimoração da questão 3 (ainda é experimental, nao funciona)
-int main(int argc, char const *argv[]){
-    char name [10];
-    int age;
-    printf("Insira seu nome");
-    scanf("%s",&name);
-    printf("Boas-vindas %s", name);
-    return 0;
 }
 //terminar em casa
 
@@ -69,6 +62,18 @@ int main(){
 }
 
 // Questão 8
+int main() {
+    int ano_nasc; 
+    int ano_atual; 
+    int idade;
+
+    printf("Digite o ano do seu nascimento: ");
+    scanf("%d", &ano_nasc);
+    ano_atual = 2024;
+    idade = ano_atual - ano_nasc;
+    printf("Sua idade e: %d anos\n", idade);
+    return 0;
+}
 
 // Questão 9
 int main(){

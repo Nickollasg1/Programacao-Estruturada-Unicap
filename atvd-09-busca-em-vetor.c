@@ -121,7 +121,7 @@ int main(){
 
             verifValorIgual(vetor, 10);
 
-            break;;
+            break;
         }
         default:
             printf("opcao invalida!!!");
